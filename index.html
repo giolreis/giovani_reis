@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giovani Reis</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/foto.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Giovani Luiz Reis</h1>
+
+          <p class="title">Web and AI Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar Contatos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">giovaniluizreis@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+55 19 999632-6537</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Idade</p>
+
+              <time datetime="1982-06-23">23 anos</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Cidade</p>
+
+              <address>Hortolândia, São Paulo, Brazil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumo</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="sobre  active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="sobre-text">
+          <p>
+            Sou Desenvolvedor Full Stack com experiência em Django, Java, JavaScript e Ajax, atuando 
+            como Estagiário de Desenvolvimento Full Stack na Youtan. No meu dia a dia, desenvolvo e 
+            mantenho páginas web e aplicativos, trabalhando tanto no Front-End quanto no Back-End, 
+            integrando sistemas e implementando novas tecnologias para soluções eficientes.
+          </p>
+
+
+          <p>
+            Atualmente, sou também Bolsista de Iniciação Científica no CTI Renato Archer, aplicando 
+            aprendizado de máquina na área da saúde para otimizar diagnósticos e tratamentos. Utilizo Python, 
+            Scikit-Learn e TensorFlow para o pré-processamento de dados, garantindo a qualidade e consistência
+            nos modelos de machine learning que desenvolvo.
+          </p>
+
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">O que ando fazendo </h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desenvolvimento Full Stack</h4>
+
+                <p class="service-item-text">
+                  Criação e manutenção de sistemas web, atuando no Front-End e Back-End com Django, Python, Java e JavaScript.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ml.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning para Dados Tabulados</h4>
+
+                <p class="service-item-text">
+                  Desenvolvimento de modelos de aprendizado de máquina para análise de dados de saúde, 
+                  utilizando Scikit-Learn e TensorFlow para diagnósticos e tratamentos mais concisos.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-img.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IA para Análise de Imagens em Plantações</h4>
+
+                <p class="service-item-text">
+                  Uso de Transfer Learning para análise de imagens, aplicando modelos pré-treinados 
+                  para identificar doenças em plantações e otimizar a saúde das culturas.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Tecnologias mais Utilizadas</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/python-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/tensorFlow-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/scikitLearn-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/javaScript-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/ajax-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/django-logo.png" alt="client logo">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/dBeaver_logo.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUMO
+      -->
+
+      <article class="resumo" data-page="resumo">
+
+        <header>
+          <h2 class="h2 article-title">Resumo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus Hortolândia</h4>
+
+              <span>2021 — Atualmente </span>
+
+              <p class="timeline-text">
+                <strong>Análise e Desenvolvimento de Sistemas :</strong> Graduação voltada para o desenvolvimento, análise,
+                 implementação e manutenção de sistemas computacionais, com ênfase em raciocínio lógico, programação e 
+                 metodologias ágeis. Foco em garantir a qualidade, segurança e eficiência de soluções tecnológicas.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Generation Brasil</h4>
+
+              <span>2024 — 2024</span>
+
+              <p class="timeline-text">
+                <strong> Desenvolvimento Web Full Stack Junior : </strong>focada no desenvolvimento de soluções web e back-end, 
+                com ênfase em programação, bancos de dados relacionais e metodologias ágeis. Capacita o aluno a desenvolver 
+                sistemas robustos e seguros, utilizando tecnologias como Java, Spring, ReactJS, SQL, HTML, CSS, JavaScript e 
+                TypeScript. Prepara para o desenvolvimento de APIs e gerenciamento de projetos com SCRUM, além de promover 
+                o desenvolvimento de habilidades comportamentais essenciais para o sucesso profissional.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus Hortolândia</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                <strong>Técnico em Eletroeletrônica : </strong> Curso voltado para o planejamento, instalação e manutenção de sistemas 
+                eletroeletrônicos industriais, com ênfase em normas técnicas, qualidade, segurança e meio ambiente. Forma profissionais 
+                capazes de projetar sistemas de acionamento, controles eletroeletrônicos e automáticos, além de realizar medições, testes
+                e calibrações. Também prepara para a aplicação eficiente de energia elétrica e fontes alternativas, com foco em tecnologias
+                inovadoras e soluções sustentáveis.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiência</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">YOUTAN</h4>
+
+              <span>2024 — Atualmente</span>
+
+              <p class="timeline-text">
+                <strong>Estagiário Desenvolvimento Full Stack :</strong> Desenvolvo e mantenho páginas web e aplicativos utilizando 
+                Django, Java, JavaScript e Ajax, criando e implementando funcionalidades tanto no Front-End quanto no Back-End. Também 
+                participo da criação e alimentação de integrações entre sistemas e serviços, além de estar envolvido na análise e 
+                implementação de novas tecnologias e ferramentas, buscando sempre otimizar e inovar as soluções oferecidas.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CTI Renato Archer</h4>
+
+              <span>2024 — Atualmente</span>
+
+              <p class="timeline-text">
+                <strong>Bolsista de Iniciação Científica :</strong> Utilizo aprendizado de máquina na saúde para desenvolver soluções 
+                que contribuem para diagnósticos e tratamentos mais precisos e eficientes. Trabalho com Python, Scikit-Learn e TensorFlow, 
+                aplicando técnicas de tratamento de dados tabulares para garantir sua qualidade e consistência, além de realizar o 
+                pré-processamento dos dados para modelos de machine learning.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Deltec</h4>
+
+              <span>2024 — 2024</span>
+
+              <p class="timeline-text">
+                <strong> Técnico de Informatica :</strong> Oferecia suporte técnico ao usuário, resolvendo problemas de TI e esclarecendo dúvidas, 
+                além de realizar manutenção básica de hardware para garantir o bom funcionamento dos equipamentos. Também era responsável pela 
+                instalação e configuração de dispositivos periféricos conforme os requisitos dos usuários e atuo na automação de processos utilizando 
+                Power Platform e ferramentas low-code.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> CEPETRO - UNICAMP</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                <strong>Estagiário Suporte de Informática:</strong> Prestava suporte técnico para diretores, alunos e pesquisadores, solucionando problemas de TI,
+                instalando e atualizando sistemas operacionais e aplicativos, além de configurar e instalar periféricos. Realizo manutenção básica de hardware para
+                assegurar o bom funcionamento dos equipamentos e configuro redes cabeadas e sem fio, garantindo uma conectividade estável e segura. 
+                Também auxiliava na parte técnica e em multimeios didáticos para cursos online com empresas como Equinor, Shell e Petrobras.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Minhas Habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Banco de dados</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java, Ajax e Django</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Design</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Aplicativos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Desenvolvimento Web</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Selecione a Categoria</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Todos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Aplicativos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Desenvolvimento Web</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="desenvolvimento web">
+              <!-- Link para o site/projeto -->
+              <a href="https://abstifree.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="fas fa-eye" style="font-size: 24px; color: white;"></i> <!-- Ícone do olho -->
+                  </div>
+                  <img src="./assets/images/projeto-web-farmacia.jpeg" alt="finance" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">Farmácia Abstifree</h3>
+                <p class="project-category">Desenvolvimento Web</p>
+              </a>
+            
+              <!-- Link para o repositório GitHub com ícone -->
+              <div class="project-repo-icon">
+                <a class="project-title" href="https://github.com/abstifree/abstifree-client" target="_blank" title="Acessar Repositório">
+                  <i class="fab fa-github" style="font-size: 30px; color: white;"></i> <!-- Ícone do GitHub -->
+                </a>
+              </div>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="desenvolvimento web">
+              <!-- Link para o site -->
+              <a href="https://premiozumbicampinas.web.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/projeto-web-zumbi.jpeg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Site Prêmio Zumbi dos Palmares</h3>
+              </a>
+            
+              <!-- Categoria do projeto -->
+              <p class="project-category">Desenvolvimento Web</p>
+            
+              <!-- Link para o repositório GitHub com ícone -->
+              <div class="project-repo-icon">
+                <a class="project-title" href="https://github.com/giolreis/Site-Zumbi-dos-Palmares" target="_blank" title="Acessar Repositório">
+                  <i class="fab fa-github" style="font-size: 30px; color: white;"></i>
+                </a>
+              </div>
+            </li>
+
+            
+            
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/giolreis/CornDiseaseClassifier-">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto-ml-milho.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Classificador Doenças do Milho</h3>
+                <p class="project-category">Machine Learning</p>
+                 <!-- Link para o repositório GitHub com ícone -->
+
+              <div class="project-repo-icon">
+                <a class="project-title" href="https://github.com/giolreis/CornDiseaseClassifier-" target="_blank" title="Acessar Repositório">
+                  <i class="fab fa-github" style="font-size: 30px; color: white;"></i> <!-- Ícone do GitHub -->
+                </a>
+              </div>
+            </li>
+
+        
+
+            <li class="project-item  active" data-filter-item data-category="aplicayivos moveis">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Aplicativos</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="desenvolvimento web">
+              <a href="https://github.com/giolreis/Sistema-de-Agendamento-de-Salas-de-Reuniao">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto-web-sala.jpeg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gerenciador Salas de Reunião</h3>
+
+                <p class="project-category">Desenvolvimento Web</p>
+                <div class="project-repo-icon">
+                  <a class="project-title" href="https://github.com/giolreis/Sistema-de-Agendamento-de-Salas-de-Reuniao" target="_blank" title="Acessar Repositório">
+                    <i class="fab fa-github" style="font-size: 30px; color: white;"></i> <!-- Ícone do GitHub -->
+                  </a>
+                </div>
+              </li>
+
+            <li class="project-item  active" data-filter-item data-category="aplicativos">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EM Breve...</h3>
+
+                <p class="project-category">Aplicativos</p>
+
+              </a>
+            </li>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</body>
+
+</html>
